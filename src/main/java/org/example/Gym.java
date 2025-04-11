@@ -32,6 +32,7 @@ public class Gym {
     }
     public boolean addVisitor(Visitor visitor){
         if(visitorList.contains(visitor)){
+
             return false;
         }
         visitorList.add(visitor);
